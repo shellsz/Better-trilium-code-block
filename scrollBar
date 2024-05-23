@@ -1,0 +1,9 @@
+/*
+    Instructions: Paste the below into a new CSS note. 
+    Set the label: #appCss
+*/
+#center-pane div.note-detail-editable-text div.note-detail-editable-text-editor.ck.ck-content pre, 
+#center-pane .CodeMirror pre code {
+    overflow-x: auto;
+    white-space: nowrap; /* 防止文本换行 */
+ }
