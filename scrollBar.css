@@ -5,5 +5,5 @@
 #center-pane div.note-detail-editable-text div.note-detail-editable-text-editor.ck.ck-content pre, 
 #center-pane .CodeMirror pre code {
     overflow-x: auto;
-    white-space: nowrap; /* 防止文本换行 */
+    white-space: pre; /* 防止文本换行 */
  }
