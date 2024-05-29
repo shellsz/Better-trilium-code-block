@@ -63,7 +63,7 @@ class countDownWidget extends api.NoteContextAwareWidget {
                 });
             }
             //等待编辑器加载内容，防止出现意外情况
-            setTimeout(performOperationWhenReady, config.executeDelay, container);
+            setTimeout(performOperationWhenReady, 200, container);
         });
     }
 }
